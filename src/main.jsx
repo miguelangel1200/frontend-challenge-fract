@@ -12,6 +12,9 @@ const client = new ApolloClient ({
 })
 
 
+const clientUnsplashId = "pezn-T124OfIv4WkotAHhn_R-5GyEcqLza8UjkQcqz8"
+const endpoint = "https://api.unsplash.com/search/photos"
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <ApolloProvider client={client}>
